@@ -512,3 +512,32 @@ Ensure the default browser behavior of the `hidden` attribute.
 .twcss-block {
   display: block;
 }
+
+.twcss-w-full {
+  width: 100%;
+}
+
+.twcss-border-r-red-700 {
+  --tw-border-opacity: 1;
+  border-right-color: rgb(185 28 28 / var(--tw-border-opacity));
+}
+
+.twcss-bg-red-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(220 38 38 / var(--tw-bg-opacity));
+}
+
+.twcss-text-red-600 {
+  --tw-text-opacity: 1;
+  color: rgb(220 38 38 / var(--tw-text-opacity));
+}
+
+.twcss-text-red-700 {
+  --tw-text-opacity: 1;
+  color: rgb(185 28 28 / var(--tw-text-opacity));
+}
+
+.twcss-text-red-500 {
+  --tw-text-opacity: 1;
+  color: rgb(239 68 68 / var(--tw-text-opacity));
+}
